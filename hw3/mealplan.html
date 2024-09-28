@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal Plan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Meal Plan for Your Day</h1>
+        <nav>
+            <a href="index.html"><button onclick="addmeal()">Back to Home </button></a>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="dishes">
+                <h2>Available Dishes</h2>
+                <ul>
+                    <li data-cost="4.99">Black Walnut Ice-Cream - $4.99 <button onclick="addToMealPlan('Black Walnut Ice-Cream',4.99 )">Add</button></li>
+
+                    <li data-cost="4.99">Peanut Butter Ice-Cream - $4 <button onclick="addToMealPlan('Peanut Butter Ice-Cream', 4.99)">Add</button></li>
+
+                    <li data-cost="3.99">Watermelon Ice-Cream - $3.99 <button onclick="addToMealPlan('Watermelon Ice-Cream', 3.99)">Add</button></li>
+
+                    <li data-cost="12">Chicken Philly Cheesesteak - $12 <button onclick="addToMealPlan('Chicken Philly Cheesesteak', 12)">Add</button></li>
+
+                    <li data-cost="7.99">Cheesy Avocado Salad - $7.99 <button onclick="addToMealPlan('Cheesy Avocado Salad', 7.99)">Add</button></li>
+
+                    <li data-cost="9.99">Chorizo TACOS - $9.99 <button onclick="addToMealPlan('Chorizo TACOS', 9.99)">Add</button></li>
+
+                    <li data-cost="6.99">Crab Cake Classic- $6.99 <button onclick="addToMealPlan('Crab Cake Classic', 6.99)">Add</button></li>
+
+                    <li data-cost="8.99">Crab-Cake-Benedict-Brunch - $8.99 <button onclick="addToMealPlan('Crab-Cake-Benedict-Brunch', 8.99)">Add</button></li>
+
+                    <li data-cost="5.99">Cinnamon Rolls - $5.99 <button onclick="addToMealPlan('Cinnamon Rolls', 5.99)">Add</button></li>
+
+
+
+
+                </ul>
+            </div>
+            <div class="meal-plan">
+                <h2>Your Meal Plan</h2>
+                <ul id="mealPlanList"></ul>
+                <p>Total Cost: $<span id="totalCost">0</span></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <script src="scripts.js"></script>
+        <p><a href="mealplan.html"><button onclick="addmeal()">Create Your Meal Plan </button></a> </p>
+    </footer>
+    
+</body>
+</html>
