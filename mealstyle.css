@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.dish-list, .meal-plan {
+    width: 45%;
+}
+.dish {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.meal-plan-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.total {
+    font-weight: bold;
+}
+.addmeal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
