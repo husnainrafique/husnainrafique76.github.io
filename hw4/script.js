@@ -44,7 +44,7 @@ function computerPlay(playerChoice) {
   let shuffleInterval = setInterval(() => {
     computerChoice = choices[Math.floor(Math.random() * choices.length)];
 
-    computerImage.src = `${computerChoice}.png`;
+    computerImage.src = `${computerChoice}.PNG`;
   }, 500);
 
   setTimeout(() => {
@@ -99,5 +99,5 @@ function resetGame() {
     choice.classList.remove("selected");
   });
 
-  computerImage.src = "question-mark.png";
+  computerImage.src = "question-mark.PNG";
 }
