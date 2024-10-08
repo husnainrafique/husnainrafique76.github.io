@@ -1,0 +1,51 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+    background-color: #f0f0f0;
+
+}
+
+
+
+.container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+
+
+.choice {
+
+    width: 100px;
+
+    cursor: pointer;
+
+    border: 2px solid transparent;
+
+    margin: 10px;
+
+}
+
+
+
+.choice.selected {
+
+    border: 2px solid blue;
+
+}
+
+
+
+img {
+
+    transition: border 0.3s;
+
+}
